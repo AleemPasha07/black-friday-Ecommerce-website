@@ -1,12 +1,30 @@
-# React + Vite
+Developed by Aleem Pasha 
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛍️ E‑Commerce Website README.md
+```markdown
+# 🛍️ Black Friday E‑Commerce Website (React + Vite + Tailwind)
 
-Currently, two official plugins are available:
+An elegant, fully responsive online‑store front end featuring seasonal sales, product galleries and modern UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
+- 🎨 Responsive design for desktop → mobile  
+- 🛒 Add / Remove items to cart  
+- 🔍 Product search and category filtering  
+- 💳 Checkout page mock integration  
+- 🔐 User authentication system (optional backend)  
+- 📦 Admin panel (optional backend branch)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+- **Frontend:** React (Vite), Tailwind CSS, Lucide‑Icons  
+- **State Management:** React Context API / useReducer  
+- **Backend (Optional Extension):** Node JS + Express + MongoDB  
+- **Build Tool:** Vite  
+
+---
+
+## 🏗️ Folder Structure
