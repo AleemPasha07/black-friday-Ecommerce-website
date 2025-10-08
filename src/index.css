@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.bg_image {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5)), url('./assets/img/home-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  align-content: center;
+  position: relative;
+}
+.bg_banner {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5)), url('./assets/img/about-bg-01.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  width: 100%;
+  align-content: center;
+  position: relative;
+}
+
+.parent{    
+  display: flex;
+  flex-direction: column;
+}

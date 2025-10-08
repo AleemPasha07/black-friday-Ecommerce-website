@@ -1,0 +1,122 @@
+/* ---------------- ROOT ---------------- */
+html, body {
+  overflow-x: hidden;
+}
+
+/* -------- HERO SECTION -------- */
+.hero h1,
+.hero #span {
+  line-height: 1.1;
+}
+
+/* Small phones (portrait) */
+@media (max-width: 639px) {
+  .hero h1 { font-size: 2.5rem; }        /* 40px  */
+  .hero #span { font-size: 3rem; }       /* 48px  */
+  .hero button { padding: 0.75rem 1.5rem; font-size: .875rem; }
+  .hero .badge { width: 5rem; height: 5rem; top: 1rem; right: 1rem; }
+}
+
+/* Tablets */
+@media (min-width: 640px) and (max-width: 767px) {
+  .hero h1 { font-size: 4rem; }          /* 64px  */
+  .hero #span { font-size: 5rem; }       /* 80px  */
+  .hero .badge { width: 6rem; height: 6rem; top: 1.5rem; right: 1.5rem; }
+}
+
+/* Laptops */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero h1 { font-size: 5rem; }          /* 80px  */
+  .hero #span { font-size: 7rem; }       /* 112px */
+  .hero button { padding: 1rem 2.5rem; }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .hero h1 { font-size: 7rem; }          /* 112px */
+  .hero #span { font-size: 9rem; }       /* 144px */
+}
+
+/* -------- FLASH DEALS -------- */
+@media (max-width: 639px) {
+  #flash-deals .custom-img {
+    flex-direction: column !important;
+    text-align: center;
+  }
+  #flash-deals .custom-img img {
+    width: 6rem;
+    height: 6rem;
+    margin: 0.25rem;
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  #flash-deals h2 { font-size: 2rem; }
+  #flash-deals p { font-size: 0.875rem; }
+}
+
+/* -------- SUBSCRIBE -------- */
+@media (max-width: 639px) {
+  #subscribe input {
+    width: 100%;
+    font-size: 0.875rem;
+  }
+  #subscribe button {
+    width: 100%;
+    padding: 0.75rem;
+  }
+}
+
+/* -------- PRODUCT GRID -------- */
+@media (max-width: 639px) {
+  .product-grid {
+    grid-template-columns: 1fr !important;
+    row-gap: 1rem;
+  }
+  .product-grid img,
+  .product-grid div {
+    height: 12rem;
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media (min-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+}
+
+/* -------- INFO CARDS (Men/Women) -------- */
+@media (max-width: 639px) {
+  #infoCard .grid {
+    grid-template-columns: 1fr !important;
+  }
+  #infoCard h6 {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  #infoCard h6 {
+    font-size: 1.5rem;
+  }
+}
+
+/* -------- TESTIMONIAL -------- */
+@media (max-width: 639px) {
+  #testimonial img {
+    max-width: 100%;
+    height: auto;
+  }
+  #testimonial p {
+    font-size: 0.9rem;
+    padding: 0 1rem;
+  }
+}
+
+/* -------- FOOTER CTA -------- */
+@media (max-width: 639px) {
+  #section h2 { font-size: 1.5rem; }
+  #section div { font-size: 0.875rem; }
+}

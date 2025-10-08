@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Jost:wght@400;500;600&display=swap");
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "DM Serif Display", serif;
+}
+
+main {
+  flex: 1 0 auto;
+}
+p{
+  color: gray
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  background-color: #000;
+}
+
+img {
+  border-radius: 0.75rem;
+}
+
+#flashDeal {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5)), url(./assets/img/product-offer-bg.jpg);
+  --background-overlay: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.black {
+  display: flex;
+  justify-content: start;
+  align-self: start;
+  flex-wrap: wrap;
+  font-family: "DM Serif Display", serif;
+  font-size: 200px;
+  margin-top: 10vh;
+}
+.sale {
+  display: flex;
+  justify-content: start;
+  align-self: start;
+  font-family: "DM Serif Display", serif;
+  font-size: 200px;
+  margin-top: -5dvh;
+}
+
+.solider {
+  border-radius: 12px 12px 12px 12px;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.product-001 {
+  height: 160px;
+  width: 118px;
+}
+
+.product-002 {
+  width: 118px;
+  height: 100px;
+}
+
+.product-003 {
+  width: 118px;
+  height: 130px;
+}
